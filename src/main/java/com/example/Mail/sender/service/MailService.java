@@ -67,7 +67,7 @@ public class MailService {
 
             helper.setFrom("boobofamilyhomeslimited@gmail.com");
             helper.setTo(to);
-            helper.setSubject("We Miss You! 👋 - Boobo Homes");
+            helper.setSubject("We Miss You! 👋 - Boobo London");
             helper.setText(html, true);  // true = HTML
 
             mailSender.send(message);
